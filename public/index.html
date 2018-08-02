@@ -1,0 +1,87 @@
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="msapplication-tap-highlight" content="no">
+   
+    <title>RealPoll</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">            
+    
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <meta name="msapplication-TileImage" content="images/favicon/mstile-144x144.png">
+    <link rel="icon" href="images/favicon/favicon-32x32.png" sizes="32x32">
+    <!--  Android 5 Chrome Color-->
+    <meta name="theme-color" content="#EE6E73">
+    <!-- CSS-->
+    
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+  </head>
+  <body>
+
+      <div class="container">
+          <h1>Realtime Poll</h1>
+          
+          <form id="vote-form">
+                <p>
+                  <label>
+                    <input class="with-gap" name="os-poll" id="windows" value="windows" type="radio" checked />
+                    <span>Windows</span>
+                  </label>
+                </p>
+                <p>
+                  <label>
+                    <input class="with-gap" name="os-poll" type="radio" id="ubuntu" value="ubuntu" />
+                    <span>Ubuntu</span>
+                  </label>
+                </p>
+                <p>
+                        <label>
+                          <input class="with-gap" name="os-poll" type="radio" id="macintosh" value="macintosh" />
+                          <span>Macintosh</span>
+                        </label>
+                </p>
+                <p>
+                        <label>
+                          <input class="with-gap" name="os-poll" type="radio" id="chrome" value="chrome" />
+                          <span>Chrome Os</span>
+                        </label>
+                </p>
+                <p>
+                        <label>
+                          <input class="with-gap" name="os-poll" type="radio" id="android" value="android" />
+                          <span>Android</span>
+                        </label>
+                </p>
+                <button class="btn waves-effect waves-light" type="submit">Vote
+                        <i class="material-icons right">send</i>
+                      </button>
+
+                
+              </form>
+
+
+              <br>
+              <br>
+              <div id="chartContainer" style="height: 300px; width:100%;"></div>
+                
+
+      </div>
+
+  
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <!-- Compiled and minified JavaScript -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/pusher/4.2.2/pusher.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/canvasjs/1.7.0/canvasjs.min.js"></script>
+   <script src="js/main.js"></script>
+   
+
+            
+  </body>
+
+   
+</html>    

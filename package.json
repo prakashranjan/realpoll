@@ -1,0 +1,26 @@
+{
+  "name": "realpoll",
+  "version": "1.0.0",
+  "description": "realtime polling app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "mongoose": "*",
+    "body-parser":"*",
+    "cors":"*",
+    "pusher":"*",
+    "express":"*" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prakashranjan/realpoll.git"
+  },
+  "author": "prakash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prakashranjan/realpoll/issues"
+  },
+  "homepage": "https://github.com/prakashranjan/realpoll#readme"
+}
