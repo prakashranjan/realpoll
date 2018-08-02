@@ -45,7 +45,7 @@ if(chartContainer){
         animationEnabled: true ,
         theme: 'theme1',
         title: {
-            text: 'OS Results'
+            text: 'Total Votes '+ totalVotes
         },
         data: [
             {
