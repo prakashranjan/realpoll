@@ -42,7 +42,10 @@ app.use(bodyParser.urlencoded({extended:false}))
 
 app.use("/poll", poll);
 
-const port = 3000;
+//dev port 
+//const port = 3000;
+//production port 
+const port = process.env.PORT || 8080;
 
 app.listen(port ,()=>{
     console.log("server running on port "+ port);

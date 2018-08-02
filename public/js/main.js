@@ -5,7 +5,7 @@ form.addEventListener("submit", e=>{
     const choice = document.querySelector("input[name=os-poll]:checked").value;
     const data ={ os : choice};
 
-    fetch("http://localhost:3000/poll", {
+    fetch("/poll", {
         method: 'post',
         body: JSON.stringify(data),
         headers: new Headers({
@@ -20,7 +20,7 @@ form.addEventListener("submit", e=>{
 
 });
 
-fetch("http://localhost:3000/poll")
+fetch("/poll")
 .then(res => res.json())
 .then(data => {
     const votes = data.votes;
